@@ -1,0 +1,8 @@
+/Users/unomasanori/Projects/DEMO_MVP/【ETHGlobal】Agentic Ethereum - AI agent (Jan 31 - Feb 9, 2024)/chess_zk/program/target/debug/deps/libsp1_primitives-c17545cfa282b50e.rmeta: /Users/unomasanori/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sp1-primitives-4.1.0/src/lib.rs /Users/unomasanori/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sp1-primitives-4.1.0/src/consts.rs /Users/unomasanori/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sp1-primitives-4.1.0/src/io.rs /Users/unomasanori/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sp1-primitives-4.1.0/src/types.rs
+
+/Users/unomasanori/Projects/DEMO_MVP/【ETHGlobal】Agentic Ethereum - AI agent (Jan 31 - Feb 9, 2024)/chess_zk/program/target/debug/deps/sp1_primitives-c17545cfa282b50e.d: /Users/unomasanori/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sp1-primitives-4.1.0/src/lib.rs /Users/unomasanori/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sp1-primitives-4.1.0/src/consts.rs /Users/unomasanori/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sp1-primitives-4.1.0/src/io.rs /Users/unomasanori/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sp1-primitives-4.1.0/src/types.rs
+
+/Users/unomasanori/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sp1-primitives-4.1.0/src/lib.rs:
+/Users/unomasanori/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sp1-primitives-4.1.0/src/consts.rs:
+/Users/unomasanori/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sp1-primitives-4.1.0/src/io.rs:
+/Users/unomasanori/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sp1-primitives-4.1.0/src/types.rs:
