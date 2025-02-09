@@ -1,0 +1,24 @@
+# Cargo build
+./program/target
+./script/target
+
+# Cargo config
+.cargo
+
+# Profile-guided optimization
+/tmp
+pgo-data.profdata
+
+# MacOS nuisances
+.DS_Store
+
+# Proofs
+**/proof-with-pis.json
+**/proof-with-io.json
+
+# Env
+.env
+
+# Cargo lock files
+./program/Cargo.lock
+./script/Cargo.lock
