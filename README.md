@@ -7,7 +7,7 @@
 - By attesting a ZKP to AI-generated contents (i.e. images), IP of these AI-generated contents can be protected. 
   - In this project, AI-generated images are used as a AI-generated contents.
 
-- SP1 / Succinct would be used for generating a ZKP, which is attested to AI-generated contents
+- SP1 / Succinct would be used for generating/verifying a ZKP, which is attested to AI-generated contents
 
 <br>
 
