@@ -1,5 +1,5 @@
 [package]
-name = "chess-script"
+name = "zk-attestation-for-ai-generated-contents-script"
 version = { workspace = true }
 edition = { workspace = true }
 publish = false

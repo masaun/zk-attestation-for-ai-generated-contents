@@ -1,5 +1,5 @@
 [package]
-name = "chess-program"
+name = "zk-attestation-for-ai-generated-contents-program"
 version = "1.1.0"
 edition = "2021"
 publish = false
