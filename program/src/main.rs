@@ -15,7 +15,7 @@ use serde::{Deserialize, Serialize};
 struct ImageData {
     image_src: String,
     image_alt: String,
-    image_salt: String,
+    //image_salt: String,
     height: u32,
     width: u32,
 }
@@ -25,7 +25,7 @@ pub fn main() {
     let image_data: ImageData = sp1_zkvm::io::read::<ImageData>();
     // let _image_src: String = sp1_zkvm::io::read::<String>();
     // let _image_alt: String = sp1_zkvm::io::read::<String>();
-    // let _image_salt: String = sp1_zkvm::io::read::<String>();
+    let image_salt: String = sp1_zkvm::io::read::<String>(); // Shuld be the "private" input (Not to be commited as a public value)
     // let _height: u32 = sp1_zkvm::io::read::<u32>();
     // let _width: u32 = sp1_zkvm::io::read::<u32>();
 
@@ -38,7 +38,7 @@ pub fn main() {
 
     println!("Image Source: {}", image_data.image_src);
     println!("Image Alt: {}", image_data.image_alt);
-    println!("Image Salt: {}", image_data.image_salt);
+    println!("Image Salt: {}", image_salt);  // Shuld be the "private" input (Not to be commited as a public value)
     println!("Image Height: {}", image_data.height);
     println!("Image Width: {}", image_data.width);
 

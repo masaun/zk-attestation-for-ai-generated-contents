@@ -24,7 +24,7 @@ const ELF: &[u8] = include_elf!("zk-attestation-for-ai-generated-contents-progra
 struct ImageData {
     image_src: String,
     image_alt: String,
-    image_salt: String,
+    //image_salt: String,
     height: u32,
     width: u32,
 }
@@ -41,18 +41,21 @@ fn main() {
     let image_data: ImageData = ImageData {
         image_src: "/exampleImage.png".to_string(),
         image_alt: "Example Logo".to_string(),
-        image_salt: "52d8eebd2b69894c91e0f1ab0f8db93f61855f6abf70224f7a46ca214b3cac84".to_string(),
+        //image_salt: "52d8eebd2b69894c91e0f1ab0f8db93f61855f6abf70224f7a46ca214b3cac84".to_string(),
         height: 450,
         width: 150,
     };
 
+    let image_salt: String = "52d8eebd2b69894c91e0f1ab0f8db93f61855f6abf70224f7a46ca214b3cac84".to_string();  // Shuld be the "private" input (Not to be commited as a public value)
+
     // The input stream that the program will read from using `sp1_zkvm::io::read`.
     let mut stdin = SP1Stdin::new();
     stdin.write(&image_data);
+    stdin.write(&image_salt); // Shuld be the "private" input (Not to be commited as a public value)
 
     println!("Image Source: {}", image_data.image_src);
     println!("Image Alt: {}", image_data.image_alt);
-    println!("Image Salt: {}", image_data.image_salt);
+    println!("Image Salt: {}", image_salt);
     println!("Image Height: {}", image_data.height);
     println!("Image Width: {}", image_data.width);
 
