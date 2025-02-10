@@ -1,7 +1,5 @@
 # Cargo build
-./program/target
-./script/target
-**/target
+/target
 
 # Cargo config
 .cargo
@@ -21,6 +19,4 @@ pgo-data.profdata
 .env
 
 # Cargo lock files
-./program/Cargo.lock
-./script/Cargo.lock
-**/Cargo.lock
+Cargo.lock
