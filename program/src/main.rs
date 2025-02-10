@@ -29,12 +29,12 @@ pub fn main() {
     // let _image_name: String = sp1_zkvm::io::read::<String>();
     // let _image_extension: String = sp1_zkvm::io::read::<String>();
 
-    // <h3>HTML canvas ImageData data property</h3>
-    // <canvas id="myCanvas"
-    //         width="200"
-    //         height="200"
-    //         style="border:2px solid;">
-    // </canvas>
+    // <Image
+    //     src="/exampleImage.png"
+    //     alt="Example Logo"
+    //     width={450}
+    //     height={150}
+    // />
 
     println!("Image ID: {}", image_data.id);
     println!("Image Height: {}", image_data.height);
